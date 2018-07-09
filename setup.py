@@ -10,7 +10,7 @@ from distutils.command.build_ext import build_ext
 
 try:
     from Cython.Build import cythonize
-    USE_CYTHON = True
+    USE_CYTHON = False
 except ImportError:
     USE_CYTHON = False
 
